@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <iostream>
 #include <string>
@@ -310,13 +311,13 @@ int main() {
             case 4:
                 tinhTongTien(danhSach);
                 break;
-			      case 5:
-				        tinhTongTienTheoLoaiXe(danhSach);
-			        	break;
-	      		case 6:
-			          tinhTongTatCa(danhSach);
-			          break;
-			      case 7:
+			case 5:
+				tinhTongTienTheoLoaiXe(danhSach);
+				break;
+			case 6:
+			    tinhTongTatCa(danhSach);
+			    break;
+			case 7:
                 return 0;
             default:
                 cout << "\tLua chon khong hop le, vui long chon lai." << endl;
